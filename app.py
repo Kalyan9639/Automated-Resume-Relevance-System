@@ -24,7 +24,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- API Configuration ---
-API_BASE = 'http://localhost:8000'
+API_BASE = 'https://resume-ranker-504509523991.asia-south1.run.app'
 
 # --- Functions ---
 def extract_text_from_pdf(file_bytes):
@@ -158,4 +158,5 @@ if st.session_state.results:
         """, unsafe_allow_html=True)
 else:
     st.info("Fill in the details on the left, upload resumes, and click 'Start Analysis' to begin.")
+
 
