@@ -195,7 +195,7 @@ if 'processing' not in st.session_state:
     st.session_state.processing = False
 
 # API Configuration
-API_BASE = 'https://resume-ranker-504509523991.asia-south1.run.app'
+API_BASE = 'https://trishool-backend-504509523991.asia-south1.run.app'
 # API_BASE = 'http://127.0.0.1:8000'  
 
 def create_circular_progress(score):
@@ -603,4 +603,5 @@ st.markdown("""
         <p>AI Resume Screener V3 • Powered by Advanced NLP & Machine Learning</p>
     </div>
 """, unsafe_allow_html=True)
+
 
